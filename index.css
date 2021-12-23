@@ -1,0 +1,33 @@
+.img_box{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.top_box{
+    margin: 70vh 0;
+    text-align: center;
+    color: #555555;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.left_box,.right_box{
+    margin-bottom: 30px;
+}
+.left_box{
+    text-align: left;
+}
+.right_box{
+    text-align: right;
+}
+img{
+    width: 47%;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.img_active{
+    transition: 1s;
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+}
