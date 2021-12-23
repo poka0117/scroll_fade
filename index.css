@@ -31,3 +31,12 @@ img{
     transform: translateY(0) !important;
     opacity: 1 !important;
 }
+
+@media screen and (max-width:600px){
+    .img_box{
+    width: 100%;
+    }
+    img{
+    width: 100%;
+}
+}
